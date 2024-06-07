@@ -1,0 +1,487 @@
+/* START HOME SECTION */
+body{
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', ;
+    background-color: #EAE4D6;
+}
+body, div, header, footer, h1, h2{
+    box-sizing: border-box;
+}
+
+/* START HEADER SECTION */
+
+.header{
+    display: flex;
+    padding: 20px;
+    background-color: #80815a;
+    border-bottom: 10px;
+    opacity: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__header{
+    font-size: 30px;
+}
+
+.navbar__item{
+    display: inline-flex;
+    list-style: none;
+    align-items: end;
+    background-color:  #e4dbbd;
+    padding: 10px 25px;
+    margin: 15px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.navbar__item:hover{
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* START MAIN SECTION */
+
+.subtitle2{
+    margin:20px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #A4A891;
+    opacity: 90%;
+    color: black;
+    text-align: center;
+    text-wrap: pretty;
+    font-size: 18px;
+}
+
+.subtitle_3{
+    margin:35px;
+    margin-top: 0px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #A4A891;
+    opacity: 90%;
+    text-align: center;
+    color: black;
+    align-content: center;
+    text-wrap: pretty;
+}
+
+.article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.article__container{
+    display: grid;
+    margin: 0.5rem;
+    min-height: 40vh;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 40px;
+}
+
+
+.article__container:first-child{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    place-content:center;
+    background-image: url(./pictures__home/Londonbackground.jpg);
+    opacity: 65%;
+    background-position: center;
+    background-size: cover;
+    font-size: 28px;
+}
+
+.article__container:nth-child(2){
+    background-image: url(./pictures__home/paris2.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 75%;
+    grid-column:2/2;
+    grid-row: 1/2;
+    place-content: center;
+}
+
+.article__container:nth-child(3){
+    background-image: url(./pictures__home/madrid.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 80%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    place-content: center;
+}
+
+.article__container:nth-child(4){
+    background-image: url(./pictures__home/barcelona.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity:70%;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    place-content: center;
+}
+
+.article__container:nth-child(5){
+    background-image: url(./pictures__home/NewYork.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 75%;
+    grid-column: 1/4;
+    grid-row: 3/4 ;
+    place-content: center;
+}
+
+.article__container:nth-child(6){
+    background-image: url(./pictures__home/Amsterdam.jpg);
+    grid-column: 4/5;
+    grid-row: 1/2 ;
+    place-content: center;
+    opacity: 75%;
+    background-position: center;
+    background-size: cover;
+}
+
+.article__container:nth-child(7){
+    background-image: url(./pictures__home/italy.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 75%;
+    grid-column: 4/5;
+    grid-row: 2/4 ;
+    place-content: center;
+    
+}
+
+.article__description{
+    font-size: 35px;
+    font-style:italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.article__container:hover{
+    opacity: 95%;
+}
+
+/* START FOOTER SECTION */
+
+footer{
+    display: flex;
+    padding: 25px;
+    background-color: #80815a;
+    color: white;
+    font-weight: 100px;
+    font-size: 18px;
+    justify-content: center;
+}
+
+
+.email__container{
+    display: inline-block;
+}
+
+.email-icon{
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+    width: 40px;
+    height: 30px;
+}
+
+/* ___________END HOME SECTION_______________ */
+
+/* ____________START ARTICLES________________ */
+
+
+.main__content{
+    margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 30px;
+    justify-content: center;
+    opacity: 90%;
+}
+
+.subtitle__country{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    padding: 1.5rem;
+    font-style: italic;
+}
+
+.article__containerByDay{
+    margin: 2rem;
+}
+
+.article__day{
+    display: flex;
+    flex-direction: row;
+    background-color: #F3F3EA;
+    border-radius: 30px;
+    margin:1rem
+
+}
+
+strong{
+    font-size: 20px;
+}
+
+.description{
+    text-align: center;
+    font-size: 18px;
+    margin-right: 3rem;
+    padding: 1.5rem;
+    padding-bottom: 0;
+    text-wrap: pretty;
+}
+
+
+.img__container{
+    width: 400px;
+    min-width: 200px;
+    max-width: 400px;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+
+/* START 'LONDON ARTICLE' */
+.img__BigBen{
+    width: 150px;
+    max-width: 100%;
+    border-radius: 80px;
+    align-items: center;
+}
+
+.img__coventgarden{
+    width: 300px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.img__toweroflondon{
+    width: 270px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.img__oxford{
+    width: 350px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+
+}
+
+.img__nothingHill{
+    margin: 15px;
+    align-items: center;
+    width: 320px;
+    max-width: 100%;
+    border-radius: 50px;
+}
+
+/* START 'PARIS ARTICLE' */
+.img__Eiffel{
+    width: 380px;
+    max-width: 100%;
+    border-radius: 45px;
+    align-items: center;
+}
+
+.img__Basilica{
+    width: 350px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.img__Versalles{
+    width: 360px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+/* START 'MADRID ARTICLE' */
+.img__granvia, .img__museo-rs, .img__realmadrid{
+    width: 500px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+/* START 'BARCELONA ARTICLE' */
+.img__sagradafamilia, .img__arcotriunfo{
+    width: 500px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.img__casavincen{
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+/* START 'NEW YORK ARTICLE' */
+ .img__empirestate{
+    width: 500px;
+    height: 250px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.img__liberty{
+    width: 400px;
+    height: 350px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.img__broadway{
+    width: 480px;
+    height: 220px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+/* START 'AMSTERDAM ARTICLE' */
+.img__Anafrank, .img__royalpalace{
+    width: 480px;
+    height: 250px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+.img__market{
+    width: 480px;
+    height: 220px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+/* START 'ROME ARTICLE' */
+
+.img__colosseum{
+    width: 450px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.img__stPeter, .img__popolo{
+    width:450px;
+    height: 180px;
+    max-width: 100%;
+    border-radius: 50px;
+    align-items: center;
+}
+/* ______________END ARTICLES SECTION__________________ */
+
+/* ___________START LOGIN-SIGNIN SECTION_______________ */
+
+.subtitle__user{
+    font-size: 25px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.form__section{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin:1.5rem;
+}
+
+.p__user{
+    align-items: center;
+    text-wrap: pretty;
+    padding: 2rem;
+    margin:1rem;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+input{
+    max-width: 30rem;
+    width: 100%;
+    margin:1rem;
+    padding: 1rem;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+
+}
+
+.submit{
+    display: inline-block;
+    width: 10rem;
+    padding:1rem;
+    margin:1rem;
+    border-radius: 15px;
+    background-color: #e4dbbd;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: #80815a;
+    transition-duration: 1s;
+}
+
+.div__checkbox,.div__password{
+    display: inline-flex;
+    width: 15rem;
+    padding: 0.2rem;
+    margin: auto;
+}
+
+.checkbox{
+    padding: 2rem;
+    margin: auto;
+}
+
+
+.a__terms,.a__forgot{
+    display: inline;
+    padding: 0.5rem;
+    font-weight: bold;
+    margin: auto;
+}
+
+/* ______________END LOGIN-SIGNIN SECTION____________ */
