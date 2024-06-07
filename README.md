@@ -2,12 +2,7 @@
 Primera entrega HTML y CSS - Diplomatura full stack ICARO 2024
 
 ## Descripción
-Página de viajes diseñada con HTML y CSS. La página cuenta con un 'HEADER' con las siguientes secciones:
-- **HOME**: Página principal con vista previa de artículos de viaje de diferentes paises.
-- **LOGIN**: Sección para que usuarios existentes inicien sesión en la página.
-- **SIGN IN**:Sección para que nuevos usuarios se registren en la página. 
-Y por último se encuentra el footer con datos de contacto. 
-
+Página de viajes diseñada con HTML y CSS. Tiene como funcion acceder a diferentes paises para conocer sus posibilidades turísticas y ver imágenes de los mismos. También cuenta con la estructura para 'Log In' y 'Sign In' de nuevos usuarios. 
 
 ## Estructura del Proyecto
 
@@ -21,13 +16,6 @@ Y por último se encuentra el footer con datos de contacto.
 
 -**LOGIN**:
 - **login.html**: archivo donde se encuentra la estructura HTML para el inicio de seción de usuarios existentes. 
--**LONDON ARTICLE**:
-- **pictures__london**: Carpeta donde se encuentran guardadas las imagenes utilizadas en el articulo de 'Londres'.
-- **London.html**: archivo donde se encuentra la estructura HTML del articulo de Londres.
-
--**PARISARTICLE**:
-- **pictures__paris**: Carpeta donde se encuentran guardadas las imagenes utilizadas en el articulo de 'Paris'.
-- **paris.html**: archivo donde se encuentra la estructura HTML del articulo de Paris.
 
 -**SIGN IN**:
 - **signin.html**: archivo donde se encuentra la estructura HTML para el registro de nuevos usuarios.
